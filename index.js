@@ -1,7 +1,7 @@
-const billAmount = document.getElementById("#bill-amount");
-const cashGiven = document.getElementById("#cash-given");
-const checkButton = document.getElementById("#check-button");
-const message = document.getElementById("#error-message");
+const billAmount = document.getElementById("bill-amount");
+const cashGiven = document.getElementById("cash-given");
+const checkButton = document.getElementById("check-button");
+const message = document.getElementById("error-message");
 const noOfNotes = document.querySelectorAll(".no-of-notes");
 
 const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
